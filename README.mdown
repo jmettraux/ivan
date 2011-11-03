@@ -1,0 +1,29 @@
+
+# ivan
+
+In reply to: http://groups.google.com/group/openwferu-users/t/83bb894d3cccbe36 on the http://ruote.rubyforge.org mailing list.
+
+
+## usage
+
+Prepare with
+
+    bundle install
+
+Launch with
+
+    ruby lib/server.rb
+
+Try with
+
+    curl -v -X POST http://127.0.0.1:4567/launch
+
+or
+
+    curl -v -X POST http://127.0.0.1:4567/launchc
+
+
+## license
+
+MIT
+
